@@ -502,9 +502,9 @@ form, input, textarea{
     text-align: left;
     font-size: 18px;
     margin: 10px 0;
-    border-radius: 15px;
+    border-radius: 1em;
     padding: 5px;
-
+    border-color: #62abf5;
     
 }
 
