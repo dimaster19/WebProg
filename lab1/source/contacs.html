@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../source/css/style.css">
+
+    <title>Обратная связь</title>
+</head>
+
+<header class="header" id="home">
+    <div class="container--head">
+        <div class="header__inner">
+            
+
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="../source/index.html">Главная</a>
+                <a class="nav__link" href="../source/index.html#link2">Новости</a>
+                <a class="nav__link" href="../source/history.html">История</a>
+                <a class="nav__link" href="../source/infrastructure.html" >Инфраструктура</a>
+                <a class="nav__link" href="../source/culture.html">Культура и искусство</a>
+                <a class="nav__link" href="#home">Контакты</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
+<div class="intro intro-half" id="intro">
+    <div class="container">
+        <div class="intro__inner">
+        </div>
+    </div>
+</div>
+
+<body>
+
+    <section class="section">
+        <div class="container">
+            <div class="contacts">
+                <h2 class="section__title">Обратная связь</h2>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            
+                <form  method="post" name="form">
+                   
+                    <input size="30"  name="name" type="text" placeholder="Ваше имя" required/>
+                    <br>
+                
+                    <input size="30" name="email" type="email" placeholder="Ваша почта" required/>
+                    <br>
+                    
+                    <input size="30" name="header" list="header" type="text" placeholder="Тема" required/>
+                     <datalist id="header">
+                        <option value="Жалоба"></option>
+                        <option value="Вопрос"></option>
+                        <option value="Предложение"></option>
+                       </datalist>
+                       <br>
+
+                       <input size="30" type="tel" placeholder="Телефон" /><br>
+
+                    <textarea name="message" id="" cols="30" rows="5" placeholder="Текст сообщения"> Текст сообщения
+                    </textarea>
+                    <br>
+                  
+                    <input class="submit" type="submit" value="Отправить" />
+                  </form>
+                 
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer" >
+        <div class="container">
+            <div class="section__header">
+                    
+                <h2 class="section__title footer__title"><br>Наши контакты</h2>
+            </div>
+
+            <div class="section__text footer_section-text">
+                <div class="section__href">
+                    <div class="href__item"><a   href="https://vk.com/" target="_blank"><img class="social__web"  src="../source/img/VK.png" alt=""></a></div>
+                    <div class="href__item"><a  href="https://t.me/" target="_blank"><img class="social__web"  src="../source/img/Telegram.png" alt=""></a></div>
+                    <div class="href__item"><a href="https://www.instagram.com/" target="_blank"><img class="social__web" src="../source/img/Instagram.png" alt=""></a></div>
+                </div>           
+            </div>
+            
+        </div>
+
+        
+            <h3>+38(071)-327-44-61</h3> 
+            <h3>г. Новоазовск, ул. Ленина, 6</h3><br>
+            <div class="footer__info">Горячая линия</div>
+           <div class="footer__info">Адрес</div> 
+    
+    </footer>
+
+
+</body>
+</html>
