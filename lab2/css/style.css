@@ -592,12 +592,14 @@ color: #fff;
 
 .second-section{
     display: flex;
+	flex-wrap: no-wrap;
     width: 100%;
    margin-bottom: 45px;
 }
 
 .brand-info{
     width: 40%;
+	flex-wrap: no-wrap;
     padding-left: 12%;
     padding-top: 100px;
     padding-right: 80px;
@@ -621,6 +623,7 @@ color: #fff;
 
 .link-block{
 display: block;
+width: 33%;
 padding-left: 8%;
 padding-top: 100px;
 padding-right: 80px;
